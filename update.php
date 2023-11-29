@@ -39,7 +39,7 @@ if(isset($_POST['updatebtn'])){
     else{
         ?>
         <script type="text/javascript">
-         alert("Try again")
+         alert("Try again");
         </script>
         <?php
     }
