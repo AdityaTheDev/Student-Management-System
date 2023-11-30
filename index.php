@@ -17,6 +17,9 @@
         function handleSearch(){
             window.open("http://localhost/crud/search.php","_self")
         }
+        function handleUpdate(){
+            window.open("http://localhost/crud/updatebyid.php","_self")
+        }
     </script>
     <form action="" method="POST">
         First Name :<input type="text" name="firstname" placeholder="firstname">
@@ -30,6 +33,7 @@
     </form>
     <button onClick="handleClick()">Display</button>
     <button onClick="handleSearch()">Search</button>
+    <button onClick="handleUpdate()">Update</button>
     
 </div>
 <?php
